@@ -3,14 +3,14 @@ import logging
 class Config:                                                                   
     API_ID = int(os.environ.get("API_ID", "23560088"))
     API_HASH = os.environ.get("API_HASH", "999c01704d5c417749a98f4b8785fe88")       
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "5896381925:AAEhvUfE7QTElvyi_00Geagz4Wttw_OC908")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "5885915327:AAFP59AofxBWAszWyhKndr-NX_N-7Fg82VA")
     BOT_SESSION = os.environ.get("BOT_SESSION", "forwardbot")
-    OWNER_ID = os.environ.get("OWNER_ID", "5410723702")                             
-    DATABASE_URI = os.environ.get("DATABASE_URI", "mongodb+srv://amit:amit@cluster0.fdlnmlh.mongodb.net/?retryWrites=true&w=majority")  
+    OWNER_ID = os.environ.get("OWNER_ID", "5695317827")                             
+    DATABASE_URI = os.environ.get("DATABASE_URI", "mongodb+srv://amit:amit@cluster0.skr2tgu.mongodb.net/?retryWrites=true&w=majority")  
     DATABASE_NAME = os.environ.get("DATABASE_NAME", "Cluste0")
     COLLECTION_NAME = os.environ.get('COLLECTION_NAME', 'Data')
-    SESSION = os.environ.get("SESSION", "BQCWmGI1a9zqqIg9kgUQ6ZoAShV53TcpPw0YRM2zPjfaCacWXa4H7FXgDPbktV9-YE-DV3O5iyqSpbNGDDQsny0ieHHlQkWmskf_tNBI3OCfCFy5wi6K2YB2duy64tDEcz3TTpSClc8XFRIiIHTdygFguDa9ro4aWFfuW07JQCNYjCPwdsgOf7SpdbCh_VAPGAWEfPHAZC2r9ChQ72E35FpohpT5QG3ag10bMAOkTG5HU5xtVpUjx2rmWk7nOgBbEX3q18501ZJVTYlYBHEZeioF0ogFGi7rck7G8wgyOkHkxj6MgZhnQMPn6R1s3tM6XgWkj_lWW0_p2GLTNhdN5vUKAAAAAUKBF3YA")   
-    TO_CHANNEL = int(os.environ.get("TO_CHANNEL", "-1001615615101"))
+    SESSION = os.environ.get("SESSION", "BQFnf5gAFQiTJU1THN9bnj6orWqzYYnVtBRjIbTO1gUJdrI6uqteopn0pvNV9Y0U2t9Yhs1xJvO8Aa5KYbG5q7RDcdWeQq2RYGl8RQt59MCUHzViUEGTN3XtacbavhXIBlRYjM-LF2KOCIhLoko1jBr583GAHIp-Z0IRXl3gSYftG47vljY8tWCGDzRTO-fkc5Hs2hGUOpRMt3ic2pIja5Ko_99iOSzDWYkeftP2zU8O6ffeF2O_9GwODXpgYIm94oQutA1XjyxhLS9lN2ZtO6itzT01juvNZUFn-lUE5wbYRbY-FomYW7hk8Kozzy5sPkEggBOMnTy22054KZpJCPdxBWTDJgAAAAFTd6dDAA")   
+    TO_CHANNEL = int(os.environ.get("TO_CHANNEL", "-1001512978679"))
     BOT_USERNAME= os.environ.get("BOT_USERNAME", "fordaranbot")
 
 
